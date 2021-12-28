@@ -9,11 +9,11 @@
 // console.error("This is an Error")
 
 // 3. JavaScript Variables
-// let name = 'Harsh'; //String Literal
-// let age = 21; //Number Literal
-// let isAproved = false; //Boolean Literal
+// let name = 'Harsh';        //String Literal
+// let age = 21;              //Number Literal
+// let isAproved = false;     //Boolean Literal
 // let firstName = undefined; //Undefined
-// let lastName = null; //Null
+// let lastName = null;       //Null
 // console.log(name);
 // console.log(age);
 // console.log(isAproved);
@@ -43,3 +43,23 @@
 // console.log(arr);
 // arr[3] = true;
 // console.log(arr);
+
+// 6. Fucntions
+// function display() {
+//     console.log('hello world');
+// }
+// display(); // function Calling
+
+// function displayname(name) {
+//     console.log('hello ' + name);
+// }
+// displayname('Harsh'); // function Calling
+
+// 7.Types of Functions
+function square(number) {
+    let square = number * number;
+    return square;
+}
+
+let Squareof = square(4);
+console.log(Squareof);
