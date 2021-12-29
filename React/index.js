@@ -153,13 +153,13 @@
 // let redColor = 'red';         //Global variable can be used everywhere
 
 // function blue() {
-//     let blueColor = 'blue';   //Local variable is limited where it is declared
+//     let blueColor = 'blue';   //Local variable is limited within a function
 //     console.log(redColor);
 //     console.log(blueColor);
 // }
 
 // function green() {
-//     let greenColor = 'green'; //Local variable is limited where it is declared
+//     let greenColor = 'green'; //Local variable is limited within a function
 //     console.log(redColor);
 //     console.log(greenColor);
 // }
