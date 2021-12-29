@@ -63,4 +63,45 @@
 // let Squareof = square(4);
 // console.log(Squareof);
 
-console.log();
+// 8. String
+// const name = 'Harsh Kamal Singh';
+// console.log(name.length);
+// console.log(name);
+
+// 9. If - Else
+// let hour = 20;
+// if (hour > 0 && hour <= 12) {
+//     console.log('Good Morning!');
+// } else if (hour > 12 && hour <= 6) {
+//     console.log('Good Afternoon!');
+// } else {
+//     console.log('Good Evening!');
+// }
+
+// 10. Loops
+// for (let i = 0; i < 5; i++) {
+//     console.log(i);
+// }
+
+// 11. Factory Functions
+// function createcircle(radius) {
+//     return {
+//         radius,
+//         area() {
+//             console.log((3.142 * radius * radius));
+//         }
+//     }
+// };
+
+// const circle1 = createcircle(2);
+// const circle2 = createcircle(4);
+// console.log(circle1);
+// console.log(circle2);
+
+// 12. Constructor Function
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.area = function() {
+//         console.log((3.142 * radius * radius));
+//     }
+// };
