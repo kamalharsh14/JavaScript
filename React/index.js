@@ -159,4 +159,34 @@
 // blue();
 // green();
 
-// 16.
+// 16. let vs var
+// function varscope() {
+//     for (var i = 0; i < 5; i++) {
+//         console.log(i);
+//     }
+//     console.log('\n' + i);
+// }
+// varscope();
+
+// function letscope() {
+//     for (let i = 0; i < 5; i++) {
+//         console.log(i);
+//     }
+//     console.log('\n' + i);
+// }
+// letscope();
+
+// 17. Cloning an Object
+// const circle = {
+//     radius: 3,
+//     area() {
+//         let area = 3.142 * radius * radius;
+//         console.log(area);
+//     }
+// }
+
+// const another = {...circle };
+
+// console.log(another);
+
+// 18.
