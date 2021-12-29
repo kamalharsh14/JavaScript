@@ -105,3 +105,66 @@
 //         console.log((3.142 * radius * radius));
 //     }
 // };
+
+// 13. Getters and Setters
+// const person = {
+//     firstName: 'Harsh',
+//     midName: 'Kamal',
+//     lastName: 'Singh',
+//     get fullName() {
+//         return `${person.firstName} ${person.midName} ${person.lastName}`
+//     },
+//     set fullName(name) {
+//         const parts = name.split(' ');
+//         this.firstName = parts[0];
+//         this.midName = parts[1];
+//         this.lastName = parts[2];
+//     }
+// };
+
+// console.log(person.fullName);
+
+// person.fullName = 'Yash Kamal Singh';
+// console.log(person);
+
+// 14. Value/Reference Types
+
+//Call By Reference
+// let number = { value: 10 };
+
+// function increase(num) {
+//     num.value++;
+// }
+
+// increase(number);
+// console.log(number);
+
+//Call by Value
+// let number = 10;
+
+// function increase(number) {
+//     number++;
+// }
+
+// increase(number);
+// console.log(number);
+
+// 15. Scope of Variables
+// let redColor = 'red';         //Global variable can be used everywhere
+
+// function blue() {
+//     let blueColor = 'blue';   //Local variable is limited where it is declared
+//     console.log(redColor);
+//     console.log(blueColor);
+// }
+
+// function green() {
+//     let greenColor = 'green'; //Local variable is limited where it is declared
+//     console.log(redColor);
+//     console.log(greenColor);
+// }
+
+// blue();
+// green();
+
+// 16.
