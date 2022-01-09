@@ -6,7 +6,7 @@ let person = {
 console.log(person);
 
 // Dot Notation
-// person.age = 23;
+person.age = 23;
 person.name = 'Yash';
 
 // Bracket Notation
